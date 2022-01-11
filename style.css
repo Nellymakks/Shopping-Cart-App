@@ -1,0 +1,54 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+ background-image: url('https://images.unsplash.com/photo-1571340910399-354d2ce7f1dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+ 
+}
+
+button, input[type="text"] {
+ padding: 15px;
+}
+
+button:hover {
+ cursor: pointer;
+}
+
+#shopping-list-item {
+ width: 250px;
+ 
+}
+
+.container {
+ max-width: 600px;
+ margin: 0 auto;
+}
+
+.shopping-list {
+ list-style: none;
+ padding-left: 0;
+ color: blue; 
+}
+
+.shopping-list > li {
+ margin-bottom: 20px;
+ border: 1.5px solid oldlace;
+ padding: 20px;
+}
+
+.shopping-item {
+ display: block;
+ color: orangered;
+ font-style: italic;
+ font-size: 35px;
+ margin-bottom: 20px;
+}
+
+.shopping-item__checked {
+ text-decoration: line-through;
+}
